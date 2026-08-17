@@ -1,10 +1,10 @@
-# Awesome-Virtual-Power-Plant
+# ⚡ Awesome-Virtual-Power-Plant
 
 <p align="center">
   <img src="assets/awesome-vpp-banner.svg" alt="Awesome Virtual Power Plant — VPP platforms and open-source projects" width="100%">
 </p>
 
-## Top Virtual Power Plant (VPP) Platforms Ecosystem
+## 🌍 Top Virtual Power Plant (VPP) Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on DER Aggregation, Flexibility Markets, Demand Response, Battery & EV Orchestration, Grid Services & Real-Time Dispatch*
 **Last updated: August 2026**
@@ -15,19 +15,19 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 **Open-source emphasis**: This section is heavily expanded with every major active project for VPP simulation, DERMS, flexibility optimization, DER modeling, and open energy management stacks — ideal for utilities, aggregators, researchers, and developers seeking transparent, standards-based control of distributed resources.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+🙌 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 📑 Table of Contents
+- ☁️ [SaaS/Hosted Platforms](#saas-products)
+- 🐙 [Open-Source GitHub Projects](#open-source-github-projects)
+- 🤝 [How to Contribute](#how-to-contribute)
+- ⚠️ [Disclaimer](#disclaimer)
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
-Sorted by **company size (revenue or valuation), descending**. Pricing and free-tier details reflect publicly available information as of **August 2026**; most enterprise DERMS vendors do not publish list prices, so entries show the most specific documented entry points.
+📊 Sorted by **company size (revenue or valuation), descending**. Pricing and free-tier details reflect publicly available information as of **August 2026**; most enterprise DERMS vendors do not publish list prices, so entries show the most specific documented entry points.
 
-| Platform | Focus | Pricing (starting tier) | Free tier / trial | Company size (revenue / valuation) |
+| 🏢 Platform | 🎯 Focus | 💰 Pricing (starting tier) | 🆓 Free tier / trial | 📈 Company size (revenue / valuation) |
 |---|---|---|---|---|
 | [Next Kraftwerke](https://www.next-kraftwerke.com/) | Pan-European VPP trading, balancing & aggregation | No list price — fixed monthly marketing fee scaled by installed capacity for solar < 800 kWp (3 published tariff tiers); profit-share of market revenues for larger assets | No free plan — asset operators join via a direct-marketing contract and are *paid* for dispatched flexibility (free online tariff calculator) | **Shell** (100% owner since 2021) — FY2024 revenue ~$284B |
 | [Limejump](https://www.limejump.com/) | UK VPP & flexibility trading (Shell) | Historical contracts passed through energy at **110–120% of System Buy Price (SBP)**; no new contracts offered since 2024 | No free tier — customer book sold to F&S Energy (May 2024); closed to new signups | **Shell** (owner since 2019) — FY2024 revenue ~$284B |
@@ -40,9 +40,9 @@ Sorted by **company size (revenue or valuation), descending**. Pricing and free-
 | [Piclo](https://www.piclo.energy/) | Flexibility marketplace (buyers & sellers) | **Free** for DER sellers (register assets, market evaluation, dispatch, settlement); paid Basic/Full seller plans and buyer tiers (Starter/Standard/Enhanced) **by quote** | **Free-forever seller plan**: unlimited asset registration, market opportunity evaluation, dispatch notifications & settlement; advanced tools (adaptive bidding, APIs, SSO) on paid tiers | Private — **~£23M raised** (Series B £8.3M, 2023) |
 | [EnergyHub](https://www.energyhub.com/) | Utility DERMS & residential VPP platform | Not publicly listed — per-program/per-device SaaS contracts with utilities | No public free tier — consumers participate **free** through utility-sponsored programs (incentives/rebates); platform itself sold to utilities | Private — **~$21M raised**; 120+ utility customers; ~2,900 MW managed; acquired Resideo Grid Services (2025) |
 
-## Open-Source GitHub Projects
+## 🐙 Open-Source GitHub Projects
 
-Sorted by **GitHub stars, descending**. Star badges (style=social, color=white) link to each repo's stargazers page and update automatically.
+⭐ Sorted by **GitHub stars, descending**. Star badges (style=social, color=white) link to each repo's stargazers page and update automatically.
 
 - **[Home Assistant](https://github.com/home-assistant/core) [![GitHub Stars](https://img.shields.io/github/stars/home-assistant/core?style=social&color=white)](https://github.com/home-assistant/core/stargazers)**
   Open-source home automation platform with the most widely deployed open energy-management dashboard; integrates solar, batteries, EV chargers and heat pumps from hundreds of vendors and is frequently used as the EMS front-end for residential VPP programs.
@@ -116,28 +116,28 @@ Sorted by **GitHub stars, descending**. Star badges (style=social, color=white) 
 - **[EnergyLink Open-Source DERMS](https://github.com/vpdeva/Energylink-Open-Source-DERMS) [![GitHub Stars](https://img.shields.io/github/stars/vpdeva/Energylink-Open-Source-DERMS?style=social&color=white)](https://github.com/vpdeva/Energylink-Open-Source-DERMS/stargazers)**
   Open-source energy data exchange and Distributed Energy Resource Management System with connectors, analytics, and dashboards.
 
-### Additional Strong Open-Source Options
+### 🔧 Additional Strong Open-Source Options
 - IEC 61850, IEEE 2030.5, OpenADR, and SunSpec protocol stacks and clients.
 - Time-series databases (InfluxDB, Timescale) + Grafana for DER monitoring and VPP dashboards.
 - Optimization libraries (OR-Tools, Pyomo, CVXPY) applied to multi-period dispatch and market bidding — see starred entries above.
 - Co-simulation frameworks (GridLAB-D, OpenDSS, HELICS) for studying VPP impacts on the grid — see starred entries above.
 
-**Frameworks for building custom systems**: Use **FlexMeasures** or the **vinerya VPP platform** as the core optimization and scheduling layer, model individual DERs with **OpenDER** or battery abstractions, aggregate them via the **NREL Virtual Battery Aggregator** or custom ADMM/coordination logic, and connect to devices through open protocols (IEEE 2030.5, Modbus, OCPP, OpenADR). Simulate portfolios with **vpp-sim** or GridAPPS-D before live deployment. Store telemetry in open time-series stores and expose market/grid-service interfaces via APIs.
+🧩 **Frameworks for building custom systems**: Use **FlexMeasures** or the **vinerya VPP platform** as the core optimization and scheduling layer, model individual DERs with **OpenDER** or battery abstractions, aggregate them via the **NREL Virtual Battery Aggregator** or custom ADMM/coordination logic, and connect to devices through open protocols (IEEE 2030.5, Modbus, OCPP, OpenADR). Simulate portfolios with **vpp-sim** or GridAPPS-D before live deployment. Store telemetry in open time-series stores and expose market/grid-service interfaces via APIs.
 
-## How to Contribute
+## 🤝 How to Contribute
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
 4. Submit PR with a short explanation.
 
-Star the repo if you find it useful!
+⭐ Star the repo if you find it useful!
 
-## Disclaimer
+## ⚠️ Disclaimer
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - Pricing and free-tier details are based on publicly available information as of **August 2026** and change frequently; verify directly with vendors before making decisions.
 - VPPs interact with critical energy infrastructure and regulated markets. Open-source components are powerful for research, simulation, and non-critical control layers but must be thoroughly validated, cybersecurity-hardened, and approved by relevant grid operators or regulators before operational use.
 - Always ensure compliance with local interconnection standards, market rules, data privacy, and grid codes.
 
 ---
-**Made for utilities, aggregators, energy startups, and researchers building the flexible grid of the future.**
-Let's make virtual power plants more open, interoperable, and democratically controllable.
+🔌 **Made for utilities, aggregators, energy startups, and researchers building the flexible grid of the future.**
+Let's make virtual power plants more open, interoperable, and democratically controllable. ⚡

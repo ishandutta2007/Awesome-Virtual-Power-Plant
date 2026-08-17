@@ -38,6 +38,7 @@ This repository is a curated list of the best **Virtual Power Plant (VPP)** soft
 - ❓ [Frequently Asked Questions](#frequently-asked-questions)
 - 🤝 [How to Contribute](#how-to-contribute)
 - ⚠️ [Disclaimer](#disclaimer)
+- ⭐ [Star History](#star-history)
 
 ## ☁️ SaaS/Hosted Platforms
 
@@ -167,6 +168,10 @@ Yes. Combine **FlexMeasures** or the **vinerya VPP platform** for optimization a
 - Pricing and free-tier details are based on publicly available information as of **August 2026** and change frequently; verify directly with vendors before making decisions.
 - VPPs interact with critical energy infrastructure and regulated markets. Open-source components are powerful for research, simulation, and non-critical control layers but must be thoroughly validated, cybersecurity-hardened, and approved by relevant grid operators or regulators before operational use.
 - Always ensure compliance with local interconnection standards, market rules, data privacy, and grid codes.
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Virtual-Power-Plant)]
 
 ---
 🔌 **Made for utilities, aggregators, energy startups, and researchers building the flexible grid of the future.**

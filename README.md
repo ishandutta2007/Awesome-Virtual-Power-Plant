@@ -1,5 +1,9 @@
 # Awesome-Virtual-Power-Plant
 
+<p align="center">
+  <img src="assets/awesome-vpp-banner.svg" alt="Awesome Virtual Power Plant — VPP platforms and open-source projects" width="100%">
+</p>
+
 ## Top Virtual Power Plant (VPP) Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on DER Aggregation, Flexibility Markets, Demand Response, Battery & EV Orchestration, Grid Services & Real-Time Dispatch*

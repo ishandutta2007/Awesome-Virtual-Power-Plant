@@ -4,6 +4,15 @@
   <img src="assets/awesome-vpp-banner.svg" alt="Awesome Virtual Power Plant — curated VPP platforms and open-source DERMS projects for distributed energy resources (DER), demand response, flexibility markets and grid services" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtual-Power-Plant/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Virtual-Power-Plant?style=flat-square&logo=github&color=blueviolet" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtual-Power-Plant/network"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Virtual-Power-Plant?style=flat-square&logo=github&color=blueviolet" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtual-Power-Plant/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Virtual-Power-Plant?style=flat-square&color=blueviolet" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Virtual-Power-Plant/issues"><img src="https://img.shields.io/badge/PRs-Welcome-blueviolet?style=flat-square&logo=github" alt="PRs welcome"/></a>
+</p>
+
 ## 🌍 Top Virtual Power Plant (VPP) Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on DER Aggregation, Flexibility Markets, Demand Response, Battery & EV Orchestration, Grid Services & Real-Time Dispatch*

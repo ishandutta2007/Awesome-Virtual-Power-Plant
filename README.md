@@ -1,213 +1,108 @@
 # Awesome-Virtual-Power-Plant
 
-## Top Warehouse Slotting Optimization Platforms Ecosystem
-
+## Top Virtual Power Plant (VPP) Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on SKU-to-Location Assignment, Velocity-Based Slotting, Pick-Path Efficiency, Cube Utilization, Dynamic Re-Slotting & Warehouse Labor Productivity*
-
+*Focused on DER Aggregation, Flexibility Markets, Demand Response, Battery & EV Orchestration, Grid Services & Real-Time Dispatch*
 **Last updated: August 2026**
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Virtual Power Plants (VPPs)**. These systems aggregate distributed energy resources (DERs) — solar, batteries, EVs, flexible loads, and thermostats — into coordinated portfolios that provide grid services, trade in energy markets, and optimize behind-the-meter assets.
 
+**Examples** include AutoGrid, Next Kraftwerke, Tesla Autobidder, Sunverge, GridBeyond, Enel X, Piclo, EnergyHub, Limejump, and Flexitricity (the category leaders).
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Warehouse Slotting Optimization**. These tools determine the optimal storage locations for SKUs based on demand velocity, product affinity, size/weight constraints, pick-path travel, and replenishment patterns to reduce picker travel time, improve throughput, and maximize space utilization.
-
-
-
-**Examples** include Lucas Systems, Hopstack, Easy Metrics, Blue Yonder Warehouse Slotting, Körber Slotting, Manhattan Slotting, Logiwa AI Slotting, Made4net Slotting, Extensiv WMS Slotting, and Infios Slotting (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for warehouse slotting algorithms, layout optimization, open WMS/WCS components, and operations-research tools for SKU placement — ideal for warehouse operators, industrial engineers, and developers seeking transparent, customizable slotting logic.
-
-
+**Open-source emphasis**: This section is heavily expanded with every major active project for VPP simulation, DERMS, flexibility optimization, DER modeling, and open energy management stacks — ideal for utilities, aggregators, researchers, and developers seeking transparent, standards-based control of distributed resources.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
-
 ## Table of Contents
-
 - [SaaS/Hosted Platforms](#saas-products)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
-
-
 ## SaaS/Hosted Platforms
+- **[AutoGrid (Schneider Electric)](https://www.autogrid.com/)**  
+  Hardware-agnostic VPP and flexibility platform that orchestrates multi-OEM batteries, EV chargers, HVAC, and other DERs for grid services and demand response.
 
-- **[Lucas Systems (Dynamic Slotting)](https://www.lucasware.com/)**  
+- **[Next Kraftwerke](https://www.next-kraftwerke.com/)**  
+  One of Europe’s largest independent VPPs, aggregating thousands of flexible assets and trading them across power markets and balancing services.
 
-  AI-powered dynamic slotting that continuously adjusts SKU locations using real-time data and voice-picking integration to minimize travel and improve productivity.
+- **[Tesla Autobidder](https://www.tesla.com/)**  
+  Closed-ecosystem real-time trading and optimization platform that bids Tesla Powerwall, Megapack, and related assets into energy and ancillary service markets.
 
+- **[Sunverge](https://www.sunverge.com/)**  
+  Distributed energy resource management and VPP software focused on residential and commercial solar-plus-storage orchestration.
 
+- **[GridBeyond](https://www.gridbeyond.com/)**  
+  AI-driven flexibility platform that aggregates industrial, commercial, and other flexible loads for market participation and grid support.
 
-- **[Hopstack](https://www.hopstack.io/)**  
+- **[Enel X](https://www.enelx.com/)**  
+  Global demand-response and VPP solutions that monetize flexible capacity from commercial, industrial, and residential assets.
 
-  Modern warehouse execution and optimization platform that includes intelligent slotting and inventory placement capabilities for fulfillment centers.
+- **[Piclo](https://www.piclo.energy/)**  
+  Marketplace platform connecting flexibility providers with grid operators and buyers of flexibility services.
 
+- **[EnergyHub](https://www.energyhub.com/)**  
+  Leading residential DER aggregation platform that turns thermostats, batteries, EV chargers, and other devices into utility-scale VPPs.
 
+- **[Limejump](https://www.limejump.com/)**  
+  UK-focused VPP and flexibility platform (part of Shell) that optimizes and trades distributed generation and flexible demand.
 
-- **[Easy Metrics](https://www.easymetrics.com/)**  
-
-  Labor and warehouse performance platform that supports engineered standards and insights useful for slotting and productivity analysis.
-
-
-
-- **[Blue Yonder Warehouse Slotting](https://blueyonder.com/)**  
-
-  Advanced slotting module within Blue Yonder WMS that uses machine learning for predictive placement based on demand, velocity, and seasonality.
-
-
-
-- **[Körber / Infios Slotting](https://www.koerber-supplychain.com/)**  
-
-  Slotting optimization capabilities integrated with Körber (now Infios) warehouse management solutions for ABC classification, family grouping, and forward/reserve balancing.
-
-
-
-- **[Manhattan Slotting / Active WM](https://www.manh.com/)**  
-
-  Built-in AI-driven slotting optimization within Manhattan Active Warehouse Management that unifies location assignment with picking workflows.
-
-
-
-- **[Logiwa AI Slotting](https://www.logiwa.com/)**  
-
-  Cloud WMS with AI-assisted slotting features designed for high-velocity e-commerce and omnichannel fulfillment operations.
-
-
-
-- **[Made4net Slotting](https://www.made4net.com/)**  
-
-  Warehouse management and optimization tools that include slotting functionality for efficient product placement and labor reduction.
-
-
-
-- **[Extensiv WMS Slotting](https://www.extensiv.com/)**  
-
-  Cloud WMS platform offering slotting and inventory optimization capabilities for 3PLs and multi-client warehouses.
-
-
-
-- **[Infios Slotting](https://www.infios.com/)**  
-
-  Slotting and warehouse optimization solutions (evolving from Körber heritage) focused on complex distribution environments.
-
-
+- **[Flexitricity](https://www.flexitricity.com/)**  
+  Demand-side response and VPP operator that aggregates industrial and commercial flexibility for balancing and capacity markets.
 
 ## Open-Source GitHub Projects
+- **[Virtual Power Plant Platform (vinerya)](https://github.com/vinerya/virtual-power-plant)**  
+  Comprehensive open-source VPP platform with production-ready optimization, multi-protocol DER control, V2G support, and benchmarking tools.
 
-- **[Warehouse Slotting Optimizer (De Koster methodology)](https://github.com/virbahu/warehouse-slotting-optimizer)**  
+- **[FlexMeasures (LF Energy)](https://flexmeasures.io/)**  
+  Open-source energy management and flexibility toolkit for optimizing schedules of batteries, EVs, processes, and other flexible assets; designed for EMS and VPP use cases.
 
-  Open-source Python optimizer that assigns SKUs to slots using demand velocity, cube utilization, and pick-path efficiency to minimize travel time.
+- **[NREL Virtual Battery Aggregator](https://github.com/NREL/virtual-battery-aggregator)**  
+  Open-source algorithms that aggregate DERs into a virtual battery model and dispatch setpoints for DERMS platforms.
 
+- **[OpenDER (EPRI)](https://github.com/epri-dev/OpenDER)**  
+  Open-source DER model implementing IEEE 1547-2018 behaviors for steady-state and dynamic studies of inverter-based resources.
 
+- **[DERIM Middleware](https://github.com/iceccarelli/derim-middleware)**  
+  Open-source smart-grid digital-twin middleware for integrating, monitoring, controlling, and simulating heterogeneous DERs.
 
-- **[Warehouse Slotting ML](https://github.com/virbahu/warehouse-slotting-ml)**  
+- **[EnergyLink Open-Source DERMS](https://github.com/vpdeva/Energylink-Open-Source-DERMS)**  
+  Open-source energy data exchange and Distributed Energy Resource Management System with connectors, analytics, and dashboards.
 
-  ML-driven open-source slotting optimization that leverages order frequency patterns and academic methodology for enterprise-scale SKU placement.
+- **[vpp-sim](https://github.com/jdhoffa/vpp-sim)**  
+  Lightweight open-source simulator for small commercial & industrial VPPs, modeling solar, batteries, flexible loads, and demand-response events.
 
+- **[Alliander DER Scheduling](https://github.com/alliander-opensource/der-scheduling)**  
+  Open-source scheduling stack for DER control according to IEC 61850 standards.
 
+- **[GridAPPS-D and related DERMS test environments](https://github.com/)**  
+  Open-source platforms and modeling environments for developing and testing DERMS applications on distribution systems.
 
-- **[openWCS](https://openwcs.ai/)**  
-
-  Open-source Warehouse Control System with configurable slotting and replenishment rules for ASRS, AMR, AutoStore, and conventional layouts.
-
-
-
-- **[GABAK / Warehouse Layout Design System](https://github.com/)**  
-
-  Open-source computational system for designing order-picking warehouse layouts, including product allocation (slotting) and picker routing optimization.
-
-
-
-- **[Slotting-Tool and planogram generators](https://github.com/)**  
-
-  Community projects that consume warehouse data to calculate and visualize slotting plans, heatmaps, and productivity impacts.
-
-
-
-- **[WMS optimization with ACO / metaheuristics](https://github.com/)**  
-
-  Research and practical tools applying Ant Colony Optimization, genetic algorithms, or other OR methods to warehouse location and routing problems.
-
-
-
-- **[Open WMS / warehouse-operations platforms](https://github.com/)**  
-
-  Event-driven or modular open-source warehouse management components that include location directives and pick-path logic adaptable to slotting.
-
-
-
-- **[Inventory & location management cores](https://github.com/)**  
-
-  Self-hosted open-source inventory systems that track bins, locations, and movements and can serve as foundations for custom slotting rules.
-
-
-
-- **[OR-Tools / PyVRP applications to warehousing](https://github.com/)**  
-
-  Uses of open constraint solvers and vehicle-routing libraries adapted to picker routing and multi-objective slotting problems.
-
-
-
-- **[Academic and research slotting codes](https://github.com/)**  
-
-  Implementations of classic velocity-based, class-based, and correlated slotting algorithms from operations-research literature.
-
-
+- **[Custom flexibility optimizers & Gym environments](https://github.com/)**  
+  Research codebases for demand-response, local electricity markets, and reinforcement-learning based flexibility control.
 
 ### Additional Strong Open-Source Options
+- OpenEMS, Home Assistant energy integrations, and other open EMS platforms that can feed into VPP logic.
+- IEC 61850, IEEE 2030.5, OpenADR, and SunSpec protocol stacks and clients.
+- Time-series databases (InfluxDB, Timescale) + Grafana for DER monitoring and VPP dashboards.
+- Optimization libraries (OR-Tools, Pyomo, CVXPY) applied to multi-period dispatch and market bidding.
+- Co-simulation frameworks (GridLAB-D, OpenDSS, HELICS) for studying VPP impacts on the grid.
 
-- Open-source WMS projects (Odoo Inventory, ERPNext, custom forks) that support location hierarchies and can host custom slotting logic.
-
-- Python libraries for ABC analysis, demand forecasting, and affinity clustering that feed into slotting models.
-
-- Simulation frameworks (SimPy, etc.) for evaluating slotting scenarios before physical moves.
-
-- Visualization tools (Plotly, Matplotlib, or GIS layers) for heatmaps of pick frequency and travel distance.
-
-- Integration of open BI (Metabase, Superset) for monitoring post-slotting KPIs.
-
-
-
-**Frameworks for building custom systems**: Start with a velocity- or ML-based slotting engine (**warehouse-slotting-optimizer** or **warehouse-slotting-ml**), feed it historical order and SKU master data, constrain placements by size/weight/hazard rules, evaluate resulting pick paths with open routing solvers, and push recommended moves into an open or commercial WMS via API. Use **openWCS** for real-time execution in automated environments. Combine with open dashboards for continuous monitoring and re-slotting triggers.
-
-
+**Frameworks for building custom systems**: Use **FlexMeasures** or the **vinerya VPP platform** as the core optimization and scheduling layer, model individual DERs with **OpenDER** or battery abstractions, aggregate them via the **NREL Virtual Battery Aggregator** or custom ADMM/coordination logic, and connect to devices through open protocols (IEEE 2030.5, Modbus, OCPP, OpenADR). Simulate portfolios with **vpp-sim** or GridAPPS-D before live deployment. Store telemetry in open time-series stores and expose market/grid-service interfaces via APIs.
 
 ## How to Contribute
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Warehouse slotting directly affects safety, labor costs, and service levels. Open-source algorithms are excellent for analysis, prototyping, and custom optimization but typically require integration with a production WMS, validation against real constraints (weight, temperature, hazmat, equipment reach), and controlled change management before physical re-slotting.
-
-- Always pilot recommendations in a limited zone and measure travel-time and productivity impact before full-warehouse rollout.
-
-
+- VPPs interact with critical energy infrastructure and regulated markets. Open-source components are powerful for research, simulation, and non-critical control layers but must be thoroughly validated, cybersecurity-hardened, and approved by relevant grid operators or regulators before operational use.
+- Always ensure compliance with local interconnection standards, market rules, data privacy, and grid codes.
 
 ---
-
-**Made for warehouse engineers, supply-chain technologists, and operations teams seeking better product placement.**
-
-Let's make warehouse slotting more open, data-driven, and continuously optimizable.
+**Made for utilities, aggregators, energy startups, and researchers building the flexible grid of the future.**
+Let's make virtual power plants more open, interoperable, and democratically controllable.

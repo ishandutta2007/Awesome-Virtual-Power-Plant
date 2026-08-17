@@ -11,6 +11,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Virtual-Power-Plant/network"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Virtual-Power-Plant?style=flat-square&logo=github&color=blueviolet" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtual-Power-Plant/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Virtual-Power-Plant?style=flat-square&color=blueviolet" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Virtual-Power-Plant/issues"><img src="https://img.shields.io/badge/PRs-Welcome-blueviolet?style=flat-square&logo=github" alt="PRs welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ## 🌍 Top Virtual Power Plant (VPP) Platforms Ecosystem

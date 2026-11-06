@@ -26,7 +26,7 @@ This repository is a curated list of the best **Virtual Power Plant (VPP)** soft
 **Open-source emphasis**: This section is heavily expanded with every major active project for VPP simulation, DERMS, flexibility optimization, DER modeling, and open energy management stacks — ideal for utilities, aggregators, researchers, and developers seeking transparent, standards-based control of distributed resources.
 
 **What's inside**:
-- ☁️ **10 leading SaaS VPP platforms** — with specific starting-tier pricing, free-tier limits and company size (revenue/valuation), sorted by size.
+- ☁️ **11 leading SaaS VPP platforms** — with specific starting-tier pricing, free-tier limits and company size (revenue/valuation), sorted by size.
 - 🐙 **24 open-source GitHub projects** — VPP platforms, DERMS, flexibility optimization, DER modeling and open energy management stacks, sorted by GitHub stars.
 - 🧩 **Building blocks** — co-simulation frameworks (GridLAB-D, HELICS), protocol stacks (OpenADR, IEEE 2030.5, IEC 61850, OCPP) and optimization libraries (OR-Tools, Pyomo, CVXPY) to assemble your own VPP stack.
 
@@ -55,6 +55,7 @@ This repository is a curated list of the best **Virtual Power Plant (VPP)** soft
 | [Sunverge](https://www.sunverge.com/) | Residential DERMS & VPP software | Not publicly listed — per-device/per-home SaaS licensed to utilities & OEM partners | No free tier — platform sold to utilities/OEMs; consumers join programs free via partner utilities | Private — **~$81M raised** (CB Insights); DERMS sold to Budderfly (2024) |
 | [GridBeyond](https://www.gridbeyond.com/) | AI-driven flexibility platform (commercial & industrial) | Not publicly listed — recurring platform subscription + performance-based share of flexibility revenues | No free tier — free site assessment & pilot via sales team | Private — **€52M Series C** (Apr 2024); revenue growing ~70%/yr |
 | [Piclo](https://www.piclo.energy/) | Flexibility marketplace (buyers & sellers) | **Free** for DER sellers (register assets, market evaluation, dispatch, settlement); paid Basic/Full seller plans and buyer tiers (Starter/Standard/Enhanced) **by quote** | **Free-forever seller plan**: unlimited asset registration, market opportunity evaluation, dispatch notifications & settlement; advanced tools (adaptive bidding, APIs, SSO) on paid tiers | Private — **~£23M raised** (Series B £8.3M, 2023) |
+| [Texture](https://www.texturehq.com/) | Grid data platform for electric cooperatives; connects AMI, GIS, SCADA, CIS, and OEM device data into one operational grid model; the platform NRTC's DERMS runs on | Not publicly listed — cooperative-scale SaaS contracts; also available through NRTC DERMS partnership | No public free tier — sales-led onboarding for utilities and cooperatives | Private — **~$23M raised** ($12.5M Series A, May 2026) |
 | [EnergyHub](https://www.energyhub.com/) | Utility DERMS & residential VPP platform | Not publicly listed — per-program/per-device SaaS contracts with utilities | No public free tier — consumers participate **free** through utility-sponsored programs (incentives/rebates); platform itself sold to utilities | Private — **~$21M raised**; 120+ utility customers; ~2,900 MW managed; acquired Resideo Grid Services (2025) |
 
 ## 🐙 Open-Source GitHub Projects
